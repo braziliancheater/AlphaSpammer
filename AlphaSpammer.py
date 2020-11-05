@@ -25,7 +25,7 @@ print("\nMetodos: ")
 print("Generic Spam (PyAutoGUI) - 1")
 print("Email Nuker - 2")
 print("...")
-d = int(input("Sua Selecao - "))
+d = int(input("Escolha - "))
 
 if d == 1:
     b = int(input("Delay (Segundos) - "))
