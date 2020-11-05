@@ -1,10 +1,10 @@
 # AlphaSpammer
 
-   ___   __     __        
-  / _ | / /__  / /  ___ _ 
- / __ |/ / _ \/ _ \/ _ `/ 
-/_/ |_/_/ .__/_//_/\_,_(_)
-       /_/                
+   ___   __     __        <br/>
+  / _ | / /__  / /  ___ _ <br/>
+ / __ |/ / _ \/ _ \/ _ `/ <br/>
+/_/ |_/_/ .__/_//_/\_,_(_)<br/>
+       /_/                <br/>
 
 this is a simple python spammer, it can be used on any app or program that has a input box. Made in like 30 minutes cuz i was bored from playing.
 
