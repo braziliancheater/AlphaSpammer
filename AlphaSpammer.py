@@ -9,6 +9,7 @@ h_wnd = user32.GetForegroundWindow()
 pid = wintypes.DWORD()
 user32.GetWindowThreadProcessId(h_wnd, ctypes.byref(pid))
 
+#name of the file that contains plain text
 f = open("text",'r')
 
 print("   ___   __     __        ")
@@ -29,7 +30,7 @@ d = int(input("Escolha - "))
 
 if d == 1:
     b = int(input("Delay (Segundos) - "))
-    c = int(input("Numero de Repeticoes - "))
+    c = int(input("Repetir Quantas vezes? - "))
     if d == 1:
         print("Selecione a Janela principal - \n")
         time.sleep(3)
