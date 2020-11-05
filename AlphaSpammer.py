@@ -24,9 +24,12 @@ print("\nAlpha Spammer 0.1 by brazilian")
 
 time.sleep(3)
 
-print("\nOptions: ")
+print("\n--- Options ---")
 print("Generic Spam (PyAutoGUI) - 1")
 print("Email Nuker - 2")
+print("--- Misc ---")
+print("Edit text - 3")
+print("Print text - 4")
 print("...")
 d = int(input("Method - "))
 
@@ -77,3 +80,16 @@ elif d == 2:
         mail.close()
     except Exception as e:
         print("Error.")
+if d == 3:
+    print("You can edit the main text file here -\n")
+    e = input("Insert text - ")
+    f.write(e)
+    print("Successful Written! exiting...")
+    time.sleep(3)
+    sys.exit()
+if d == 4:
+    print("This prints what is inside your 'text' file. \n")
+    print(f.read())
+    print("\nSuccessful read! exiting...")
+    time.sleep(3)
+    sys.exit()
