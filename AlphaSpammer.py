@@ -1,6 +1,6 @@
 #simple simple example of a spammer?
 #Made from ground by brazilian aka crim3s
-import pyautogui, time, pymsgbox, ctypes, os, sys, smtplib
+import pyautogui, time, pymsgbox, ctypes, sys, smtplib
 from pynput.mouse import Listener
 from ctypes import wintypes
 
@@ -51,7 +51,8 @@ if d == 1:
 
                 except KeyboardInterrupt:
                     print("\nKeyboard Interrupt")          
-                    
+                
+                
     #if you want to use a prompt box
     #pymsgbox.alert('Done..', 'Alpha')
 elif d == 2:
