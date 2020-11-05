@@ -1,0 +1,2 @@
+# AlphaSpammer
+simple python spammer
