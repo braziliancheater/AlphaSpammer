@@ -24,7 +24,7 @@ do i plan on updating this? **no**.<br/>
 
 first intall [Python](https://www.python.org/) then [PiP](https://pypi.org/project/pip/) those are the only external dependencies 
 
-### 🎲 Rodando o Back End (servidor)
+### 🎲 Running it on you computer 
 
 ```bash
 # clone this repo
